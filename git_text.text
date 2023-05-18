@@ -1,9 +1,9 @@
-git clone Repo Name => استدعاء المستودع الى الجهاز
+git clone "Repo Name" => استدعاء المستودع الى الجهاز
 git status => هو يكشف لك اين حالت الملفات بين رفع والجهاز
-git add File Name OR git add . => اضافة الملفات الى المسرح وتحضيرها للرفع
-git reset File Name => لأترجيع الملفات من المسرح قبل الرفع
+git add "File Name" OR git add . => اضافة الملفات الى المسرح وتحضيرها للرفع
+git reset head  "File Name" => لأترجيع الملفات من المسرح قبل الرفع
 git commit -m "create commint" => لأضافة كومنت لتوضيح المهام او اسم الملفات 
-git branch -m main OR git branch -m Name Branch => استضعاء الفرع المبعوث لهو الملفات 
+git branch -m main OR git branch -m "Name Branch" => استضعاء الفرع المبعوث لهو الملفات 
 git push -u origin main => هذا الأمر هو يرفع الملفات من الجهاز الى الستودع
 git pull => هذا الأمر يسحب التعديلات من الستودع الى الجهاز
 
